@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(to bottom, #D78019 0%, #D7D062 50%, #E42A04 100%);
+}
+
+header nav img{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-inner{
+    height: 450px;
+}
+
+.pie {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+  }
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    padding-left: 50px;
+}
+
+
+
+@media (max-width: 1000px) {
+   
+    .carousel-inner{
+        height: 250px;
+        width:100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .imagen{
+        width: 200px;
+        height: 200px;
+        padding: 0px;
+    }
+  }
+
+.card-title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card{
+    background: linear-gradient(to bottom, #A91514 0%, #DDE483 100%);
+}
