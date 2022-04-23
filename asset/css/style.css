@@ -1,3 +1,8 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
 body{
     background: linear-gradient(to bottom, #D78019 0%, #D7D062 50%, #E42A04 100%);
 }
@@ -50,4 +55,9 @@ header nav img{
 
 .card{
     background: linear-gradient(to bottom, #A91514 0%, #DDE483 100%);
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
