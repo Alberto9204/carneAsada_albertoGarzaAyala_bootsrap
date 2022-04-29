@@ -4,8 +4,9 @@
 }
 
 body{
-    background: linear-gradient(to bottom, #D78019 0%, #D7D062 50%, #E42A04 100%);
+    background:#D78019;
 }
+
 
 header nav img{
     width: 100px;
@@ -31,7 +32,10 @@ header nav img{
     padding-bottom: 5px;
 }
 
-
+.img-fluid{
+    width: 300px;
+    height: 250px;
+}
 
 @media (max-width: 1000px) {
    
@@ -68,7 +72,7 @@ header nav img{
 }
 
 .card{
-    background: linear-gradient(to bottom, #A91514 0%, #DDE483 100%);
+    background: #E06020;
 }
 
 main a{
@@ -101,9 +105,6 @@ button{
     padding: 5px;
 }
 
-h1{
-    font-size: 90px;
-}
 
 .titulo1{
     padding: 10px;
@@ -141,7 +142,7 @@ h1{
     }
   }
 
-  .imagen:hover{
-    transform:scale(1.15);
+  main div div div:hover{
+    transform:scale(1.05);
     transition: 1s;
   }
