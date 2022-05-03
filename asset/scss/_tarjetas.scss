@@ -1,0 +1,41 @@
+.card{
+    background: $colorPrimario;
+    border: solid 3px $colorSecundario;
+    border-radius: 25px;
+    .card-title{
+        text-align: center;
+        font-size: 25px;
+    }
+    .img-fluid{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .pieTarjeta{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .contador{
+            width: 45px;
+         }
+    button{
+            background: $colorBoton;
+    }
+    .botonCarro{
+            padding: 10px;
+    }
+         
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+main div div div:hover{
+    transform:scale(1.05);
+    transition: 1s;
+  }

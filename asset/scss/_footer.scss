@@ -1,0 +1,11 @@
+.pie {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+     a{
+       text-decoration: none;
+       color: $colorFooter; 
+    }
+}

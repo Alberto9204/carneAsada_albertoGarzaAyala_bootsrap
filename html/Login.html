@@ -50,13 +50,13 @@
         </header> 
 
     <main class="Formulario">
-     <div class="Sesion">
+     <div class="Sesion flex-column d-flex align-items-center">
         <h4>Inicia Sesion</h4>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <label for="inputEmail4" class="form-label"> </label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Electronico">
           </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <label for="inputPassword2" class="visually-hidden"></label>
             <input type="password" class="form-control" id="inputPassword2" placeholder="Contraseña">
           </div><br>
@@ -77,7 +77,7 @@
         </div>
       </div>
 
-      <form class="row g-3">
+      <form class="row">
         <div class="col-md-3">
           <label for="inputEmail4" class="form-label"> </label>
           <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
@@ -90,8 +90,11 @@
             <label for="inputPassword4" class="form-label"></label>
             <input type="password" class="form-control" id="inputPassword4" placeholder="Repite Contraseña">
           </div>
+      </form><br>
+
+      <form class="row">
         <h4>Direccion de entrega</h4>
-        <div class="col-4">
+        <div class="col-3">
           <label for="inputAddress" class="form-label"></label>
           <input type="text" class="form-control" id="inputAddress" placeholder="Calle y numero">
         </div>
@@ -101,8 +104,8 @@
         </div>
         <div class="col-md-3">
           <label for="inputCity" class="form-label"></label>
-          <input type="text" class="form-control" id="inputCity"  placeholder="Cuidad">
-        </div>
+          <input type="text" class="form-control" id="inputCity"  placeholder="Cuidad"> 
+        </div> 
         <div class="col-md-3">
           <label for="inputState" class="form-label"></label>
           <select id="inputState" class="form-select"  placeholder="Estado">
@@ -157,6 +160,7 @@
         <div class="col-12">
           <button type="submit" class="btn btn-primary">Aceptar</button>
         </div>
+      </div>  
       </form>
    
 

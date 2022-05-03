@@ -1,154 +1,143 @@
-*{
-    margin:0px;
+@media (max-width: 1000px) {
+  .carousel-inner {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .card {
+    width: 100%;
+  }
+  .imagen {
+    width: 200px;
+    height: 200px;
     padding: 0px;
+  }
 }
 
-body{
-    background:#D78019;
+@media (max-width: 580px) {
+  .container {
+    padding-left: 80px;
+  }
 }
 
-
-header nav img{
-    width: 100px;
-    height: 100px;
+@media (max-width: 420px) {
+  .container {
+    padding-left: 40px;
+  }
 }
 
-.carousel-inner{
-    height: 450px;
+header nav img {
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+  height: 450px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .pie {
-    display: flex;
-    align-items: flex-end;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    justify-content: space-around;
-  }
-
-.imagen{
-    width: 200px;
-    height: 200px;
-    padding-left: 50px;
-    padding-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  justify-content: space-around;
 }
 
-.img-fluid{
-    width: 300px;
-    height: 250px;
+.pie a {
+  text-decoration: none;
+  color: #111111;
 }
 
-@media (max-width: 1000px) {
-   
-    .carousel-inner{
-        height: 250px;
-        width:100%;
-    }
-    .card{
-        width: 100%;
-    }
-    .imagen{
-        width: 200px;
-        height: 200px;
-        padding: 0px;
-    }
-  }
-
-@media (max-width: 580px) {
-    .container{
-        padding-left: 80px;
-    }
-    
+.card {
+  background: radial-gradient(circle, rgba(255, 183, 43, 0.389793) 0%, rgba(255, 230, 27, 0.314163) 7%, white 100%);
+  border: solid 3px #181715;
+  border-radius: 25px;
 }
 
-@media (max-width: 420px){
-    .container{
-        padding-left: 40px;
-    }
+.card .card-title {
+  text-align: center;
+  font-size: 25px;
 }
 
-.card-title{
-    text-align: center;
-    font-size: 25px;
+.card .img-fluid {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
 }
 
-.card{
-    background: #E06020;
+.card .pieTarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-main a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.card .contador {
+  width: 45px;
 }
 
-footer a{
-    text-decoration: none;
-    color: black;
- }
-
-.contador{
-    width: 50px;
- }
-
-.botonCarro{
-    margin: 10px;
-  }
-
-.pieTarjeta{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.card button {
+  background: #dfcf9b;
 }
 
-button{
-    padding: 5px;
+.card .botonCarro {
+  padding: 10px;
 }
 
-
-.titulo1{
-    padding: 10px;
-    text-align: center;
+.imagen {
+  width: 200px;
+  height: 200px;
+  padding-left: 50px;
+  padding-bottom: 5px;
 }
 
-.imgCarne{
-    width: 300px;
-    height: 200px;
-    display: block;
-    margin: 0px auto;
-  }
+main div div div:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
 
-  .imgOpinion{
-    width: 300px;
-    height: 250px;
-    display: block;
-    margin: 0px auto;
-  }
+.titulo1 {
+  padding: 10px;
+  text-align: center;
+}
 
-  .opiniones {  
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
+.imgCarne {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 0px auto;
+}
 
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+.opiniones {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
 
-  main div div div:hover{
-    transform:scale(1.05);
-    transition: 1s;
-  }
+.imgOpinion {
+  width: 300px;
+  height: 250px;
+  display: block;
+  margin: 0px auto;
+}
 
-.card{
-      border: solid;
-      border-color: rgb(0, 0, 0);
-      border-radius: 25px;
-  }
+body {
+  background: radial-gradient(circle, rgba(255, 183, 43, 0.389793) 0%, rgba(255, 230, 27, 0.314163) 7%, white 100%);
+}
+
+main a {
+  text-decoration: none;
+  color: #181715;
+  font-family: Arial, Helvetica, sans-serif 20px;
+}
+/*# sourceMappingURL=style.css.map */

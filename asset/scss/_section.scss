@@ -1,0 +1,16 @@
+.carousel-inner{
+    border-radius: 15px;
+    height: 450px;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

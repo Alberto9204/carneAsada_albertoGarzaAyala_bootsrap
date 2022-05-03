@@ -1,0 +1,9 @@
+body{
+    background: $colorPrimario;
+ }
+
+main a{
+    text-decoration: none;
+    color: $colorSecundario;
+    font-family: $fuente;
+}
