@@ -47,6 +47,40 @@ header nav img {
   }
 }
 
+.titulo1 {
+  padding: 10px;
+  text-align: center;
+}
+
+.imgCarne {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 0px auto;
+}
+
+.opiniones {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.imgOpinion {
+  width: 300px;
+  height: 250px;
+  display: block;
+  margin: 0px auto;
+}
+
+body {
+  background: radial-gradient(circle, rgba(255, 183, 43, 0.389793) 0%, rgba(255, 230, 27, 0.314163) 7%, white 100%);
+}
+
+main a {
+  text-decoration: none;
+  color: #181715;
+  font-family: Arial, Helvetica, sans-serif 20px;
+}
+
 .pie {
   display: flex;
   align-items: flex-end;
@@ -55,9 +89,9 @@ header nav img {
   justify-content: space-around;
 }
 
-.pie a {
+a {
   text-decoration: none;
-  color: #111111;
+  color: #000000;
 }
 
 .card {
@@ -105,39 +139,5 @@ header nav img {
 main div div div:hover {
   transform: scale(1.05);
   transition: 1s;
-}
-
-.titulo1 {
-  padding: 10px;
-  text-align: center;
-}
-
-.imgCarne {
-  width: 300px;
-  height: 200px;
-  display: block;
-  margin: 0px auto;
-}
-
-.opiniones {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-.imgOpinion {
-  width: 300px;
-  height: 250px;
-  display: block;
-  margin: 0px auto;
-}
-
-body {
-  background: radial-gradient(circle, rgba(255, 183, 43, 0.389793) 0%, rgba(255, 230, 27, 0.314163) 7%, white 100%);
-}
-
-main a {
-  text-decoration: none;
-  color: #181715;
-  font-family: Arial, Helvetica, sans-serif 20px;
 }
 /*# sourceMappingURL=style.css.map */
