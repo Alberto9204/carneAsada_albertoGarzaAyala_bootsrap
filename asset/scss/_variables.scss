@@ -2,4 +2,13 @@ $colorPrimario : radial-gradient(circle, rgba(255,183,43,0.3897934173669467) 0%,
 $colorSecundario : #181715;
 $colorBoton : #dfcf9b;
 $fuente : Arial, Helvetica, sans-serif 20px;
-$colorFooter : #000000;
+$colorFooterFuente : #000000;
+$colorFooterFondo : #cf8600ab;
+$carta: (
+    borde:solid  3px  $colorSecundario,
+    bordeRadio:25px,
+);
+@mixin propiedades ($ancho,$alto) {
+    width: $ancho;
+    height: $alto;
+};

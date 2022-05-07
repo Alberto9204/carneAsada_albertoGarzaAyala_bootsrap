@@ -4,14 +4,13 @@
     .carousel-inner{
         height: 250px;
         width:100%;
-        border-radius: 15px;
+        border-radius: 25px;
     }
     .card{
         width: 100%;
     }
     .imagen{
-        width: 200px;
-        height: 200px;
+        @include propiedades(200px,200px);
         padding: 0px;
     }
   }

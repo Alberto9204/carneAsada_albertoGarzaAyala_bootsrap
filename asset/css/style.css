@@ -2,7 +2,7 @@
   .carousel-inner {
     height: 250px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 25px;
   }
   .card {
     width: 100%;
@@ -52,11 +52,16 @@ header nav img {
   text-align: center;
 }
 
-.imgCarne {
-  width: 300px;
+.imgCarne, .imgCarneReceta {
+  width: 250px;
   height: 200px;
   display: block;
   margin: 0px auto;
+}
+
+.imgCarneReceta {
+  border-radius: 5px;
+  height: 250px;
 }
 
 .opiniones {
@@ -85,11 +90,15 @@ main a {
   display: flex;
   align-items: flex-end;
   margin-top: 30px;
-  margin-bottom: 15px;
   justify-content: space-around;
 }
 
-a {
+footer {
+  background: #cf8600ab;
+  padding: 50px;
+}
+
+footer a {
   text-decoration: none;
   color: #000000;
 }

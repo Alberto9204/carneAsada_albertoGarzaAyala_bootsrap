@@ -4,8 +4,14 @@
 }
 
 .imgCarne{
-    width: 300px;
-    height: 200px;
+    @include propiedades (250px, 200px);
     display: block;
     margin: 0px auto;
   }
+
+.imgCarneReceta{
+    @extend .imgCarne;
+    border-radius: 5px;
+    height: 250px;
+}
+
