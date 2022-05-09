@@ -149,4 +149,24 @@ main div div div:hover {
   transform: scale(1.05);
   transition: 1s;
 }
+
+.card-primario {
+  background: radial-gradient(circle, rgba(255, 183, 43, 0.389793) 0%, rgba(255, 230, 27, 0.314163) 7%, white 100%);
+}
+
+.card-secundario {
+  background: #181715;
+}
+
+.card-boton {
+  background: #dfcf9b;
+}
+
+.card-footerfuente {
+  background: #000000;
+}
+
+.card-footerfondo {
+  background: #cf8600ab;
+}
 /*# sourceMappingURL=style.css.map */

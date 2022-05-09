@@ -1,8 +1,8 @@
 Hola Emi te pongo las modificaciones del proyecto
 -Puse un extend en la pagina de recetas para copiar porpiedades de imagenes.
--Puse un Map get en las tarjetas con las propiedades de bordes.
+-Puse un Map get en las tarjetas con las propiedades de bordes de las tarjetas.
 -Utilice un mixin para heigth y width ya que es la propiedad mas utlizada.
-
+-Hice un mapeo con los colores de background utilizando la clase each mas no supe muy bien su funcion me base para el ejercio que hizo el profe para el after.
 
 //Para el Seo//
 

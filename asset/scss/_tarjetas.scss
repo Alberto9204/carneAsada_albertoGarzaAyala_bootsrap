@@ -37,3 +37,10 @@ main div div div:hover{
     transform:scale(1.05);
     transition: 1s;
   }
+
+  @each $clave, $var in $colores {
+      .card-#{$clave}{
+          background: $var;
+      }
+
+  }

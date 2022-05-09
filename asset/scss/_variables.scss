@@ -12,3 +12,5 @@ $carta: (
     width: $ancho;
     height: $alto;
 };
+
+$colores:(primario:$colorPrimario, secundario:$colorSecundario, boton:$colorBoton, footerfuente:$colorFooterFuente, footerfondo:$colorFooterFondo);
