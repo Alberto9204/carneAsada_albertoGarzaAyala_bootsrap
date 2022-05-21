@@ -1,6 +1,6 @@
 .carousel-inner{
     border-radius: 15px;
-    height: auto;
+    max-height: fit-content;
 }
 
 @keyframes slidein {

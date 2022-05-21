@@ -1,6 +1,6 @@
-@media (max-width: 1000px) {
+@media (min-width: 900px) {
   .carousel-inner {
-    height: auto;
+    height: 480px;
     width: 100%;
     border-radius: 25px;
   }
@@ -19,15 +19,21 @@
     padding-left: 80px;
   }
   .carousel-inner {
-    height: 500px;
     width: 100%;
     border-radius: 25px;
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 420px) {
   .container {
     padding-left: 50px;
+  }
+  .carousel-inner {
+    width: 100%;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-top: 0px;
   }
 }
 
@@ -38,7 +44,7 @@ header nav img {
 
 .carousel-inner {
   border-radius: 15px;
-  height: auto;
+  max-height: fit-content;
 }
 
 @keyframes slidein {
